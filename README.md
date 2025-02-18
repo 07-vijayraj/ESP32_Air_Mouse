@@ -1,3 +1,4 @@
+
 # ESP32_Air_Mouse
 
 An ESP32 air mouse is a wireless device that uses an ESP32 microcontroller and an Adafruit MPU6050 sensor to control a computer cursor by detecting hand movements. It senses motion with accelerometers and gyroscopes, processes this data to move the cursor, and connects to the computer using Bluetooth through the ESP32-BLE-Mouse library. This allows you to control the cursor in real time, making it useful for presentations or as an assistive device.
@@ -23,6 +24,9 @@ connects the pin according
 | ----------------- | ------------------------------------------------------------------ |
 | MPU6050 SDA | pin21 |
 | MPU6050 SCL | pin22 |
+|MPU6050 VCC |   VCC |
+|MPU6050 GND|  GND |
 |   Button 1 |  pin18|
 | Button 1 |  pin19|
+
 
